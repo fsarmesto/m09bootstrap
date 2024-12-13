@@ -1,0 +1,26 @@
+.d-block {
+  max-height: 500px;
+  object-fit: cover;
+}
+h3.services {
+  font-size: 40px;
+  display: inline-block;
+  height: 50px;
+  box-shadow: 0 25px 0 -20px #e4b430;
+  max-width: max-content;
+}
+#ourservices {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 15%;
+  margin: 5% 0;
+}
+#titles-services {
+  text-align: center;
+}
+#bars {
+  display: grid;
+  grid-template-columns: 25% auto 25% auto;
+  row-gap: 0%;
+}
